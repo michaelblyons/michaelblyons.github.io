@@ -122,17 +122,24 @@ header, footer, section {
 
 #shell-top {
   position: fixed;
-  max-width: 1000px;
   top: 0;
-  left:50%;
+  left: 0;
   width: 100%;
-  margin-left: -500px;
+}
+
+.shell-width {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.side-width {
+  max-width: 300px;
+  width: 30%;
 }
 
 header {
-  position: absolute;
-  top: 30px;
-  left: 0;
+  padding: 40px 40px 0 20px;
+  margin-bottom: 1.3rem;
   text-align: center;
 }
 
@@ -146,49 +153,43 @@ header h1{
 }
 
 nav {
-  position: absolute;
-  top: 30%;
-  left: 50%;
+  padding: 0 40px 0 20px;
 }
 
 /* footer */
 
 #shell-bottom {
   position: fixed;
-  max-width: 1000px;
   bottom: 0;
-  left:50%;
+  left: 0;
   width: 100%;
-  margin-left: -500px;
 }
 
 footer{
-  position: absolute;
-  left: 0;
-  bottom: 1em;
-  width: 100%;
-  max-width: 280px;
+  padding: 0 40px .7rem 20px;
 }
 
 footer h1 {
   font: bold 1.3rem/normal sans-serif;
-  margin: 0 0 .7rem;
+  margin: 0 0 .5rem;
 }
 
 footer dt {
   float: left;
   width: 30%;
   font-weight: bold;
-  margin: .5rem 0;
+  font-family: sans-serif;
+  margin: .3rem 0;
 }
 
 footer dd {
   float: right;
   width: 68%;
-  margin: .5rem 0;
+  margin: .3rem 0;
 }
 
-footer dd::after {
+footer dd::after,
+footer dl::after {
   content: "";
   display: block;
   clear: both;
@@ -196,11 +197,19 @@ footer dd::after {
 
 /* content */
 
-#shell #main {
-  margin-left: 300px;
+#main {
+  position: relative;
+  float: right;
+  width: 70%;
+}
+
+#content {
   padding: 20px 20px 20px 40px;
   border-left: 15px double #555;
-  position: relative;
+}
+
+#content p {
+  margin: .7rem 0;
 }
 
 /* Content based headers */
