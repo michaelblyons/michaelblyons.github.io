@@ -156,6 +156,10 @@ header, footer, section {
 
 /* STYLES */
 
+html {
+  background: #444;
+}
+
 #shell {
   position: relative;
   max-width: 1000px;
@@ -170,6 +174,7 @@ header, footer, section {
   top: 0;
   left: 0;
   width: 100%;
+  color: #eee;
 }
 
 .shell-width {
@@ -208,6 +213,7 @@ nav {
   bottom: 0;
   left: 0;
   width: 100%;
+  color: #eee;
 }
 
 footer{
@@ -246,11 +252,13 @@ footer dl::after {
   position: relative;
   float: right;
   width: 70%;
+  background: #eee;
 }
 
 #content {
-  padding: 20px 20px 20px 40px;
-  border-left: 15px double #555;
+  padding: 1.2rem 40px;
+  border-left: 5px solid #777;
+  min-height: 800px;
 }
 
 #content p {
