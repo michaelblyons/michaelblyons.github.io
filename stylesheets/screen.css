@@ -303,8 +303,87 @@ footer dl::after {
   min-height: 800px;
 }
 
+#content a {
+  color: #040;
+}
+#content a:hover,
+#content a:visited {
+  color: #5b6;
+}
+
 #content p {
   margin: .7rem 0;
+}
+
+#content blockquote {
+  margin: .5rem 0 .5rem .7rem;
+  padding: 0 .5rem;
+  color: #cba;
+  border-left: 3px solid #cba;
+}
+
+#content ul,
+#content ol {
+  margin: .7rem 0;
+  padding-left: 2rem;
+  list-style: disc;
+}
+#content li ul {
+  list-style: circle;
+}
+#content li li ul {
+  list-style: square;
+}
+#content li li li ul {
+  list-style: disc;
+}
+#content ol {
+  list-style: decimal;
+}
+#content li ol {
+  list-style: lower-alpha;
+}
+#content li li ol {
+  list-style: lower-roman;
+}
+#content li li li ol {
+  list-style: decimal;
+}
+
+#content img {
+  -webkit-box-shadow: 0px 2px 0px #bca;
+  -moz-box-shadow: 0px 2px 0px #bca;
+  box-shadow: 0px 2px 0px #bca;
+  border: 2px solid #dbc;
+  max-width: 100%;
+}
+
+#content hr {
+  border: none;
+  outline: none;
+  height: 18px;
+  background: #5b6; /*url('../images/hr.jpg') center center repeat-x;*/
+  margin: 0 0 20px;
+}
+
+#content code {
+  background: #dcb;
+  font: normal normal .8em/1.7 "Lucida Sans Typewriter", "Lucida Console", Monaco, "Bitstream Vera Sans Mono", monospace;
+  padding: 0 5px 1px;
+  border-radius: 2px;
+}
+
+#content pre {
+  margin: 10px 0 20px;
+  padding: .7em;
+  background: #dcb;
+  border-bottom: 2px solid #bca;
+  font: normal normal .9em/1.7 "Lucida Sans Typewriter", "Lucida Console", Monaco, "Bitstream Vera Sans Mono", monospace;
+  overflow: auto;
+}
+
+pre code {
+  padding: 0;
 }
 
 /* Content based headers */
@@ -320,6 +399,8 @@ footer dl::after {
 
 .header-level-1 {
   font-size: 1.85em;
+  color: #040;
+  border-bottom: 3px double #040;
   margin: 1.1em 0 .38em;
   line-height: 1.2;
   padding-bottom: 10px
@@ -328,6 +409,8 @@ footer dl::after {
 .header-level-2 {
   font-size: 1.58em;
   font-family: Biolinum, sans-serif;
+  color: #5b6;
+  border-bottom: 1px solid #5b6;
   margin: .95em 0 .5em;
   line-height: 1.2;
   padding-bottom: 10px
@@ -336,20 +419,24 @@ footer dl::after {
 .header-level-3 {
   margin: 20px 0 10px;
   font-size: 1.45em;
+  font-variant: small-caps;
 }
 
 .header-level-4 {
   margin: .6em 0;
   font-size: 1.2em;
   font-family: Biolinum, sans-serif;
+  font-variant: small-caps;
 }
 
 .header-level-5 {
   margin: .7em 0;
   font-size: 1em;
+  color: #777;
 }
 
 .header-level-6 {
   margin: .8em 0;
   font-size: .85em;
+  font-style: italic;
 }
