@@ -13,7 +13,7 @@
   <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
   <script type="text/javascript" src="/javascripts/headsmart.min.js"></script>
   <script type="text/javascript" src="/javascripts/main.js"></script>
-  <title>Michael Lyons</title>
+  <title>{{ page.title }}</title>
 
   <link rel="apple-touch-icon" sizes="57x57" href="/images/favicons/apple-touch-icon-57x57.png">
   <link rel="apple-touch-icon" sizes="60x60" href="/images/favicons/apple-touch-icon-60x60.png">
@@ -43,7 +43,7 @@
       <div class="shell-width">
         <div class="side-width">
           <header>
-            <img id="logo" alt="" src="images/elephant.svg" />
+            <img id="logo" alt="" src="/images/elephant.svg" />
             <h1>Michael Lyons</h1>
           </header>
           <nav>
@@ -59,13 +59,7 @@
     </div>
     <section id="main">
       <div id="content">
-        <h1>About</h1>
-        <p>I write software. This is a website. There is no <code>.ns</code> <a href="https://en.wikipedia.org/wiki/Country_code_top-level_domain">ccTLD</a>.</p>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce fermentum mattis est non hendrerit. Nulla sit amet varius nisl, ac hendrerit magna. Etiam tincidunt vel erat dictum viverra. Quisque fermentum elit sit amet sem porta rutrum. Etiam lacinia elit viverra nisi elementum, nec consectetur dolor rutrum. Nullam dapibus rhoncus tellus quis dapibus. Phasellus laoreet ligula nec magna iaculis, nec porttitor risus rutrum. Duis rhoncus velit at velit ullamcorper, sit amet maximus dui venenatis. Vestibulum a metus nec nibh pulvinar fermentum ac et diam. Donec semper, nisl vitae auctor rutrum, ex sapien bibendum diam, id pellentesque urna mi sed odio. Proin sit amet quam non elit placerat semper ac vitae lectus. Donec bibendum, mauris in accumsan ornare, purus magna congue urna, et varius purus felis vel risus. In at elementum quam.</p>
-
-        <h1>Opinions I Have</h1>
-        <p>Aenean sit amet cursus ex, nec ultrices erat. Sed vel tortor id elit fringilla mollis sed at urna. Curabitur elementum facilisis ipsum, ac pulvinar justo feugiat et. Phasellus leo arcu, semper sagittis nibh et, laoreet mattis orci. Mauris semper mi sit amet ligula malesuada, id dictum libero dictum. Praesent hendrerit eros quis auctor malesuada. Morbi sollicitudin non nulla quis tempus.</p>
-        <p>Curabitur vitae vestibulum orci, efficitur dictum libero. Etiam velit arcu, fermentum condimentum orci vel, commodo laoreet metus. Nunc mi ipsum, commodo a felis laoreet, molestie malesuada diam. Maecenas lobortis maximus hendrerit. Maecenas enim libero, rutrum ut aliquet quis, tristique a neque. Aliquam eu diam in quam tempor molestie. Pellentesque egestas et est et pulvinar. Nunc quam mi, hendrerit at gravida eget, sagittis id risus. Quisque dignissim mi sapien, a porttitor ligula viverra auctor. Quisque accumsan a magna in aliquet. Nunc dolor velit, tempor eget porttitor id, congue et sapien. Aliquam suscipit bibendum arcu, eu dictum turpis lacinia et.</p>
+        {{content}}
       </div>
     </section>
     <div id="shell-bottom">
