@@ -23,7 +23,7 @@ header {
   max-width: 100%;
   margin: 0;
   top: 0;
-  z-index: 1;
+  z-index: 2;
   background: #444;
   padding: 0;
 }

@@ -51,7 +51,7 @@ Another paragraph, and [this one](#) has links.
 ##### Level 5
 Another paragraph, and [this one](#) has links.
 
-####### Seriously? Six levels?
+###### Seriously? Six levels?
 
 Another paragraph, and [this one](#) has links.
 Now let's try to throw in some other weird crap. How about `code blocks`? Yeah, that sounds good.

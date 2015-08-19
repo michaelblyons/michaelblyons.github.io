@@ -213,7 +213,7 @@ nav #nav-opener {
 nav ul {
   background: #cba;
   border-radius: 8px;
-  padding: .3em 0 .3em .3em;
+  padding: .3rem 0 .3rem .3rem;
 }
 
 nav ul li a {
@@ -295,12 +295,14 @@ footer dl::after {
   float: right;
   width: 70%;
   background: #eee;
+  z-index: 1
 }
 
 #content {
   padding: 1.2rem 40px;
   border-left: 5px solid #777;
   min-height: 800px;
+  line-height: normal;
 }
 
 #content a {
@@ -330,6 +332,7 @@ footer dl::after {
 }
 #content li ul {
   list-style: circle;
+  margin: .3rem 0;
 }
 #content li li ul {
   list-style: square;
@@ -342,6 +345,7 @@ footer dl::after {
 }
 #content li ol {
   list-style: lower-alpha;
+  margin: .3rem 0;
 }
 #content li li ol {
   list-style: lower-roman;
@@ -368,7 +372,7 @@ footer dl::after {
 
 #content code {
   background: #dcb;
-  font: normal normal .8em/1.7 "Lucida Sans Typewriter", "Lucida Console", Monaco, "Bitstream Vera Sans Mono", monospace;
+  font: normal normal .8rem/1.7 "Lucida Sans Typewriter", "Lucida Console", Monaco, "Bitstream Vera Sans Mono", monospace;
   padding: 0 5px 1px;
   border-radius: 2px;
 }
@@ -378,7 +382,7 @@ footer dl::after {
   padding: .7em;
   background: #dcb;
   border-bottom: 2px solid #bca;
-  font: normal normal .9em/1.7 "Lucida Sans Typewriter", "Lucida Console", Monaco, "Bitstream Vera Sans Mono", monospace;
+  font: normal normal .9rem/1.7 "Lucida Sans Typewriter", "Lucida Console", Monaco, "Bitstream Vera Sans Mono", monospace;
   overflow: auto;
 }
 
@@ -398,45 +402,69 @@ pre code {
 }
 
 .header-level-1 {
-  font-size: 1.85em;
+  font-size: 1.85rem;
   color: #040;
   border-bottom: 3px double #040;
-  margin: 1.1em 0 .38em;
+  margin: 1.1rem 0 .38rem;
   line-height: 1.2;
   padding-bottom: 10px
 }
 
 .header-level-2 {
-  font-size: 1.58em;
+  font-size: 1.58rem;
   font-family: Biolinum, sans-serif;
   color: #5b6;
   border-bottom: 1px solid #5b6;
-  margin: .95em 0 .5em;
+  margin: 1rem 0 .5rem;
   line-height: 1.2;
   padding-bottom: 10px
 }
 
 .header-level-3 {
-  margin: 20px 0 10px;
-  font-size: 1.45em;
+  margin: 1.1rem 0 .7rem;
+  font-size: 1.45rem;
   font-variant: small-caps;
 }
 
 .header-level-4 {
-  margin: .6em 0;
-  font-size: 1.2em;
+  margin: 1rem 0 .7rem;
+  font-size: 1.2rem;
   font-family: Biolinum, sans-serif;
   font-variant: small-caps;
 }
 
 .header-level-5 {
-  margin: .7em 0;
-  font-size: 1em;
+  margin: 1rem 0 .7rem;
+  font-size: 1rem;
   color: #777;
 }
 
 .header-level-6 {
-  margin: .8em 0;
-  font-size: .85em;
+  margin: 1rem 0 .5rem;
+  font-size: .85rem;
   font-style: italic;
+  color: #5b6;
+}
+
+@media only screen and (max-width: 915px) {
+  header #logo {
+    max-width: 75%;
+    height: auto;
+  }
+
+  header h1 {
+    font-size: 1.6rem;
+  }
+
+  nav {
+    padding-left: 0;
+  }
+
+  nav > ul {
+    border-radius: 0 8px 8px 0;
+  }
+
+  footer dd {
+    width: 90%;
+  }
 }
