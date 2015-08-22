@@ -317,6 +317,14 @@ footer dl::after {
   margin: .7rem 0;
 }
 
+#content strong {
+  font-weight: bold;
+}
+
+#content em {
+  font-style: italic;
+}
+
 #content blockquote {
   margin: .5rem 0 .5rem .7rem;
   padding: 0 .5rem;
@@ -372,17 +380,18 @@ footer dl::after {
 
 #content code {
   background: #dcb;
-  font: normal normal .8rem/1.7 "Lucida Sans Typewriter", "Lucida Console", Monaco, "Bitstream Vera Sans Mono", monospace;
-  padding: 0 5px 1px;
+  font: normal normal .7rem/normal "Lucida Sans Typewriter", "Lucida Console", Monaco, "Bitstream Vera Sans Mono", monospace;
+  padding: 1px 4px;
   border-radius: 2px;
 }
 
 #content pre {
   margin: 10px 0 20px;
-  padding: .7em;
+  padding: .3rem .7rem .7rem;
   background: #dcb;
-  border-bottom: 2px solid #bca;
-  font: normal normal .9rem/1.7 "Lucida Sans Typewriter", "Lucida Console", Monaco, "Bitstream Vera Sans Mono", monospace;
+  border: 1px solid #cba;
+  border-radius: 4px 4px 2px 2px;
+  box-shadow: 0 0 10px #cba inset;
   overflow: auto;
 }
 
