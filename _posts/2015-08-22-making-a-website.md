@@ -3,13 +3,12 @@ layout: post
 title: Making a Website
 ---
 
-# Making a Website
-
 I feel like these first-posts are clich&eacute; and well-nigh obligatory. I had a general sense for some time that I wanted a web presence, and that I didn't want it to be run by the whims of, say, Facebook, or some other entity whose business is selling me.
 
 When I finally set out to register a domain, I discovered that in between my thought to register lyons.io and _actually doing so,_ someone already had. I trawled around for the availability of lyons with various other TLDs, and finally remembered the trend of pulling it into the site name.
 
 It's kitschy, I know, but ten bucks a year for a six-char domain is pretty sweet.
+
 
 Once I had the (virtual) paperwork in, I spent a good long while without actually using it.
 

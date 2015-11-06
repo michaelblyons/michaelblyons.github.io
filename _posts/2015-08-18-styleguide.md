@@ -3,9 +3,9 @@ layout: post
 title: Style Guide
 permalink: styleguide/index.html
 ---
-# Style Guide
 
 Here follow styles that can be used on the website:
+
 
 - Unordered list
 - Unordered list
