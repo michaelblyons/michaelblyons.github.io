@@ -1,3 +1,3 @@
 $(function () {
-    $('#content').headsmart();
+    $('#content, #content article').headsmart();
 });
