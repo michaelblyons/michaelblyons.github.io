@@ -1,0 +1,9 @@
+{% capture location %}{{ page.url | remove_first:'/' | split:'/' | first }}{% endcapture %}
+<nav>
+  <a href="#" id="nav-opener">Menu</a>
+  <ul>
+    <li><a {% if location == '' %}class="active" {% endif %} href="/">Home</a></li>
+    <li><a {% if location == 'projects' %}class="active" {% endif %} href="/projects">Projects</a></li>
+    <li><a {% if location == 'posts' %}class="active" {% endif %} href="/posts">Posts</a></li>
+  </ul>
+</nav>
