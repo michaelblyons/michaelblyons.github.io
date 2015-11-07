@@ -1,7 +1,7 @@
 ---
 layout: post
 title: About
-permalink: index.html
+permalink: /
 ---
 
 I'm a software developer on the east coast of the United States who spent most of his formative years in south-east Asia.

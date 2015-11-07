@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Style Guide
-permalink: styleguide/index.html
+permalink: /styleguide/
 ---
 
 Here follow styles that can be used on the website:
