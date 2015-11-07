@@ -1,6 +1,10 @@
 ---
-layout: post
 title: Making a Website
+tags:
+- jekyll
+- art
+- web
+- website
 ---
 
 I feel like these first-posts are clich&eacute; and well-nigh obligatory. I had a general sense for some time that I wanted a web presence, and that I didn't want it to be run by the whims of, say, Facebook, or some other entity whose business is selling me.

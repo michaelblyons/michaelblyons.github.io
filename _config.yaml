@@ -45,7 +45,16 @@ paginate_path: /posts/page:num
 timezone:      America/New_York
 
 quiet:    false
-defaults: []
+
+# Front matter defaults
+defaults:
+-
+  scope:
+    path: ""
+    type: "posts"
+  values:
+    layout: "post"
+    permalink: "/posts/:year/:month/:day/:title.html"
 
 # Markdown Processors
 rdiscount:
